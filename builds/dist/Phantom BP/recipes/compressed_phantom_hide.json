@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "phantom:compressed_phantom_hide"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"item": "phantom:phantom_hide"
+			}
+		},
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"result": {
+			"item": "phantom:compressed_phantom_hide"
+		}
+	}
+}

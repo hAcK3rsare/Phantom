@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "phantom:phantom",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/phantom"
+			},
+			"geometry": {
+				"default": "geometry.phantom"
+			},
+			"scripts": {
+				"animate": [
+					"walk_controller",
+					"attack_controller"
+				]
+			},
+			"animations": {
+				"walk_controller": "controller.animation.phantom.walk",
+				"attack_controller": "controller.animation.phantom.attack",
+				"attack": "animation.phantom.attack",
+				"idle": "animation.phantom.idle",
+				"move": "animation.phantom.move"
+			},
+			"spawn_egg": {
+				"overlay_color": "#bdd1d1",
+				"base_color": "#9fb3b3"
+			},
+			"render_controllers": [
+				"controller.render.phantom"
+			]
+		}
+	}
+}

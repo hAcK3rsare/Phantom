@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Wasderlol"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.0"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Phantom",
+		"description": "",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "b77032ca-ed85-4511-a649-2db9c5df8ef1",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "5eaa551a-4f25-4921-8dd7-498c756f89db",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "14eec208-d00e-4315-861c-f7346e58d885",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

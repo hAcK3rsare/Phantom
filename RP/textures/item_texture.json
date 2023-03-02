@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "Phantom",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"phantom_compressed_phantom_hide": {
+			"textures": "textures/items/compressed_phantom_hide"
+		}
+	}
+}
